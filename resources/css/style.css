@@ -1,0 +1,48 @@
+:root{
+    --main_color_one: #888888;
+    --accent_color_one: #3e4449;
+}
+body{
+    color: var(--accent_color_one);
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+}
+
+div,span{
+    border: 2px solid black;
+}
+.bold{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: var(--accent_color_one);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.header .logo{
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img{
+    height:40px;
+    width:auto;
+}
+
+nav a{
+    padding-right: 16px;
+}
+
+#title{
+    color:var(--main_color_one);
+}
