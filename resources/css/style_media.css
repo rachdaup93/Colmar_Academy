@@ -1,9 +1,3 @@
-:root{
-    --main_color_one: #888888;
-    --main_color_two: #dadcdd;
-    --accent_color_one: #3e4449;
-    --accent_color_two: #a4cbde
-}
 @media only screen and (min-width: 420px){
     .mobile_only{
         display:none;
@@ -60,6 +54,7 @@
     .minor_story{
         width: 100%;
         padding: 0;
+        margin: 0;
     }
     .learning{
         background-color: white;
@@ -67,11 +62,15 @@
         border-bottom: 1px solid var(--main_color_two);
     }
     .flex.left,
+    .flex.right,
     .row,
     .column{
         width:100%;
         margin:0;
         padding: 0;
+    }
+    .column{
+        box-shadow: none;
     }
     .details{
         background-color:var(--main_color_two);
