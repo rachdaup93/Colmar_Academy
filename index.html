@@ -4,8 +4,15 @@
         <title>Colmar Academy</title>
         <link href="resources/css/reset.css"/ type="text/css" rel="stylesheet">
         <link href="resources/css/style.css"/ type="text/css" rel="stylesheet">
+        <link href="resources/css/style_media.css"/ type="text/css" rel="stylesheet">
     </head>
 <body>
+    <span class="icons mobile_only flex">
+        <img src="resources/images/ic-logo.svg"/>
+        <img src="resources/images/ic-on-campus.svg"/>
+        <img src="resources/images/ic-online.svg"/>
+        <img src="resources/images/ic-login.svg"/>
+    </span>
     <header class="header">
         <span class="logo">
             <img src="resources/images/ic-logo.svg"/>
@@ -27,13 +34,16 @@
         </span>
     </div>
     <div class="flex">
-        <div class="flex left">
+        <div class="main_story flex left">
             <img src="resources/images/information-main.jpg" class="width_100"/>
             <h3>It doesn't hurt to keep practicing</h3>
             <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
             <h4>Emanuel, Sr Strategist at Hiring.com</h4>
         </div>
         <div class="flex right">
+            <div class= "info mobile_only">
+                <img src="resources/images/information-orientation-mobile.jpg"/>
+            </div>
             <div class="minor_story">
                 <img src="resources/images/information-orientation.jpg"/>
                 <span>
@@ -42,6 +52,9 @@
                     <a href="#">Read more</a>
                 </span>
             </div>
+            <div class= "info mobile_only">
+                <img src="resources/images/information-campus-mobile.jpg"/>
+            </div>
         <div class="minor_story">
             <img src="resources/images/information-campus.jpg"/>
             <span>
@@ -49,6 +62,9 @@
                 <p class="padding_8">Find which campus is close by you</p>
                 <a href="#">Read more</a>
             </span>
+            </div>
+            <div class= "info mobile_only">
+                <img src="resources/images/information-guest-lecture-mobile.jpg"/>
             </div>
     <div class="minor_story">
         <img src="resources/images/information-guest-lecture.jpg"/>
@@ -143,7 +159,7 @@
     </div>
     <footer class="flex">
         <h4>&copy; 2016 Colmar Academy. All rights reserved</h4>
-        <h4><a>Terms</a><a>Privacy</a></h4>
+        <h4 class="conditions"><a>Terms</a><a>Privacy</a></h4>
     </footer>
 </body>
 </html>

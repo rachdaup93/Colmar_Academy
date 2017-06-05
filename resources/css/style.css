@@ -87,11 +87,15 @@ nav a{
 .apply{
     margin-left: 40px;
     width: 32%;
-    height: 300px;
+    height: 90%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
+}
+
+.apply h2{
+    padding: 32px 0;
 }
 
 .button{
@@ -125,6 +129,7 @@ nav a{
 }
 .flex.right{
     flex-direction: column;
+    margin-top: 8px;
 }
 
 .minor_story{
@@ -167,7 +172,6 @@ nav a{
 }
 .column{
     flex-direction: column;
-    height: 370px;
     width:30%;
     background-color: white;
 }
